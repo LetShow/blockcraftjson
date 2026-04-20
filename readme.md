@@ -4,9 +4,7 @@
 
 ## 安装
 
-```bash
-npm install blockcraftjson
-```
+先将源代码中的components目录复制到项目中
 
 ## 快速开始
 
@@ -37,12 +35,12 @@ const formData = ref({})
 
 ## 组件属性
 
-| 属性名     | 类型   | 必填 | 默认值 | 描述             |
-| ---------- | ------ | ---- | ------ | ---------------- |
+| 属性名     | 类型   | 必填 | 默认值                      | 描述             |
+| ---------- | ------ | ---- | --------------------------- | ---------------- |
 | block      | Object | 否   | { block: [], subBlock: [] } | 配置积木块的属性 |
-| theme      | Object | 否   | {}     | 主题色配置       |
-| authority  | Object | 否   | {}     | 权限配置         |
-| modelValue | Object | 否   | {}     | 双向绑定的数据   |
+| theme      | Object | 否   | {}                          | 主题色配置       |
+| authority  | Object | 否   | {}                          | 权限配置         |
+| modelValue | Object | 否   | {}                          | 双向绑定的数据   |
 
 ## block 配置
 
@@ -176,10 +174,10 @@ const formData = ref({})
 
 ## 事件
 
-| 事件名            | 参数           | 描述           |
-| ----------------- | -------------- | -------------- |
-| update:modelValue | (data: Object) | 数据变化时触发 |
-| change            | (data: Object) | 数据变化时触发 |
+| 事件名            | 参数              | 描述           |
+| ----------------- | ----------------- | -------------- |
+| update:modelValue | (data: Object)    | 数据变化时触发 |
+| change            | (data: Object)    | 数据变化时触发 |
 | themeChange       | (isDark: boolean) | 主题切换时触发 |
 
 ## 导出方式
