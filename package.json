@@ -1,0 +1,18 @@
+{
+  "name": "blockcraftjson",
+  "version": "1.0.0",
+  "description": "一个可以复用的vue3组件,通过类似scratch的积木块的拖拽的方式编辑json数据",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}

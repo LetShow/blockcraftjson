@@ -1,0 +1,80 @@
+{
+  "block": [
+    {
+      "key": "name",
+      "name": "包名称",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "key": "version",
+      "name": "版本号",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "key": "description",
+      "name": "描述",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "key": "keywords",
+      "name": "关键字",
+      "type": "array",
+      "options": ["s_keyword"],
+      "unique": true
+    },
+    {
+      "key": "author",
+      "name": "作者",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "key": "license",
+      "name": "开源协议",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "key": "scripts",
+      "name": "脚本命令",
+      "type": "keyvalue",
+      "unique": true
+    },
+    {
+      "key": "dependencies",
+      "name": "运行时依赖",
+      "type": "keyvalue",
+      "unique": true
+    },
+    {
+      "key": "devDependencies",
+      "name": "开发时依赖",
+      "type": "keyvalue",
+      "unique": true
+    }
+  ],
+  "subBlock": [
+    {
+      "key": "s_keyword",
+      "name": "关键字",
+      "type": "string"
+    }
+  ],
+  "theme": {
+    "blockColor": "#4a90d9",
+    "blockTextColor": "#ffffff",
+    "canvasBg": "#f5f5f5",
+    "buttonColor": "#4a90d9",
+    "buttonTextColor": "#ffffff",
+    "isDark": false
+  },
+  "authority": {
+    "showImport": true,
+    "showExport": true,
+    "showPreview": true,
+    "showConfig": false
+  }
+}
